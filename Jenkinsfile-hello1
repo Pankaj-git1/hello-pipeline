@@ -5,7 +5,7 @@ stages
 {
 stage('Clone the SCM')
 {
-step
+steps
 {
 sh'echo Clone the code from git'
 }
@@ -13,7 +13,7 @@ sh'echo Clone the code from git'
 
 stage('Test')
 {
-step
+steps
 {
 sh'echo Testing is done'
 }
@@ -21,7 +21,7 @@ sh'echo Testing is done'
 
 stage('Build')
 {
-step
+steps
 {
 sh echo'Building the code'
 }

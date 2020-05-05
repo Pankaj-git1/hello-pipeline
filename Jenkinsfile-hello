@@ -3,11 +3,11 @@ pipeline
 agent any
 stages
 {
- stage ('please download code')
+ stage ('Print Hello')
 {
    steps
 {
-     sh 'echo download load'
+     sh 'Welcome ! To Jenkins pipeline'
 }
 }
 }

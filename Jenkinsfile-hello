@@ -7,7 +7,7 @@ stages
 {
    steps
 {
-     sh 'Welcome ! To Jenkins pipeline'
+     sh ' echo Welcome ! To Jenkins pipeline'
 }
 }
 }

@@ -1,0 +1,33 @@
+pipeline
+{
+agent any
+stages
+{
+stage('Clone the SCM')
+{
+step
+{
+sh'echo Clone the code from git'
+}
+}
+
+stage('Test')
+{
+step
+{
+sh'echo Testing is done'
+}
+}
+
+stage('Build')
+{
+step
+{
+sh echo'Building the code'
+}
+}
+
+}
+
+
+}

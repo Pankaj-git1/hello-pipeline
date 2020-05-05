@@ -3,14 +3,13 @@ pipeline
 agent any
 stages
 {
- stage ('Print Hello')
+ stage ('please print hello')
 {
    steps
 {
-     sh ' echo Welcome ! To Jenkins pipeline'
+     sh 'echo hello'
 }
 }
 }
 }
-
 

@@ -3,7 +3,8 @@ pipeline
 agent any
 stages
 {
-
+stage('clone the SCM & Test123 ')
+{
 parallel
 {
 
@@ -14,7 +15,6 @@ steps
 sh'echo Clone the code from git from master branch'
 }
 }
-
 stage('Test123')
 {
 steps
@@ -23,7 +23,7 @@ sh'echo Testing is done'
 }
 }
 }
-
+}
 
 stage('Build')
 {

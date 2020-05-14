@@ -3,8 +3,9 @@ pipeline
 agent any
 stages
 {
-parallel{
+parallel
 {
+
 stage('Clone the SCM')
 {
 steps

@@ -11,7 +11,7 @@ sh'echo Clone the code from git from master branch'
 }
 }
 
-stage('Test')
+stage('Test'1)
 {
 steps
 {

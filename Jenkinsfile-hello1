@@ -3,6 +3,7 @@ pipeline
 agent any
 stages
 {
+
 parallel
 {
 
@@ -35,4 +36,5 @@ sh'echo Building the codes'
 }
 
 
+}
 }

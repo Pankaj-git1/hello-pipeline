@@ -7,7 +7,7 @@ stage('Clone the SCM')
 {
 steps
 {
-sh'echo Clone the code from git'
+sh'echo Clone the code from git from master branch'
 }
 }
 

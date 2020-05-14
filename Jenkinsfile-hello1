@@ -3,6 +3,8 @@ pipeline
 agent any
 stages
 {
+parallel
+{
 stage('Clone the SCM')
 {
 steps
@@ -18,7 +20,7 @@ steps
 sh'echo Testing is done'
 }
 }
-
+}
 stage('Build')
 {
 steps
